@@ -1,0 +1,11 @@
+[package]
+name = "efs-pre-warm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.57"
+walkdir = "2.3.2"
+warm-fs = "0.2.0"
+clap = { version = "3", features = ["derive"] }
+indicatif = "0.16"
